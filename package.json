@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/dottodot/prerender-mongo#readme",
   "dependencies": {
-    "cache-manager": "^1.1.0",
     "mongodb": "^2.0.43"
   }
 }

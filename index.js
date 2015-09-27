@@ -1,1 +1,1 @@
-module.exports = require('./lib/mongoCache');
+module.exports = require('./lib/mongo');
