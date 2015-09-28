@@ -1,10 +1,18 @@
-# prerender-mongo
+prerender-mongo
+=======================
+
 Prerender plugin for MongoDB caching, to be used with the prerender node application from [prerender](https://github.com/prerender/prerender)
 
-This was inspired by [prerender-mongo-cache](https://github.com/gwuhaolin/prerender-mongo-cache) but modified to include page expiration
-#How it works
+This was inspired by [prerender-mongodb-cache](https://github.com/lammertw/prerender-mongodb-cache) but modified to include page expiration
+
+How it works
+------------
+
 This plugin will store all prerendered pages into a MongoDB instance. By default it will connect to your MongoDB instance running on localhost and use the `pages` collection in `prerender` database and pages will be cached for 1 day.
-#How to use
+
+How to use
+----------
+
 In your local prerender project run:
 
     $ npm install prerender-mongo --save
