@@ -24,3 +24,8 @@ Then in the server.js that initializes the prerender:
 A custom mongo url can be set using env variables ```MONGOLAB_URI``` or ```MONGOHQ_URL```.
 
 To change the page expiration use env variable ```PAGE_TTL```.
+
+How to update stored cache
+--------------------------
+
+Just change the HTTP GET method to `POST` or `PUT`, then prerender will recache it.
