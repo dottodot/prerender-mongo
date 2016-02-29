@@ -19,7 +19,14 @@ In your local prerender project run:
 
 Then in the server.js that initializes the prerender:
 
-    server.use(require('prerender-mongo'));
+    var prerender = require('prerender-node'),
+        prerenderMongo = require('prerender-mongo');
+
+    prerender.set('beforeRender', prerenderMongo.beforePhantomRequest)
+             .set('afterRender', prerenderMongo.afterPhantomRequest);
+
+    server.use(prerenderMongo);
+    server.use(prerender);
 
 A custom mongo url can be set using env variables ```MONGOLAB_URI``` or ```MONGOHQ_URL```.
 
