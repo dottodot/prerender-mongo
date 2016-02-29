@@ -1,6 +1,6 @@
 {
   "name": "prerender-mongo",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Prerender plugin for MongoDB caching",
   "main": "index.js",
   "scripts": {
