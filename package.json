@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/dottodot/prerender-mongo#readme",
   "dependencies": {
-    "mongodb": "^2.2.21"
+    "mongodb": "^3.2.6"
   }
 }
